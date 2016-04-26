@@ -18,7 +18,8 @@ Prerequisites :-
 
 
 
-To take backups of a multinode cluster, you can set a cronjob in all nodes and run the script at same time.
+
+To take backups of a multinode cluster, you may set a cronjob in all cluster nodes and run the script at same time.
 
 
 
