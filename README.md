@@ -9,6 +9,12 @@ Prerequisites :-
 1. You should have aws command line tool installed in your system
 
 easy_install awscli
+
 aws --configure
 
-2. You should have  
+2. You should have .cassandra/cqlshrc in place ( Connection and SSL details )
+
+3. Postfix MTA for sending E-mail Notifications
+
+
+
