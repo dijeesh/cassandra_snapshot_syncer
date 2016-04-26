@@ -8,13 +8,18 @@ Prerequisites :-
 
 1. You should have aws command line tool installed in your system
 
-easy_install awscli
+    easy_install awscli
 
-aws --configure
+    aws --configure
 
 2. You should have .cassandra/cqlshrc in place ( Connection and SSL details )
 
-3. Postfix MTA for sending E-mail Notifications
+3. Postfix MTA for sending E-mail Notifications.
+
+
+
+To take backups of a multinode cluster, you can set a cronjob in all nodes and run the script at same time.
+
 
 
 
