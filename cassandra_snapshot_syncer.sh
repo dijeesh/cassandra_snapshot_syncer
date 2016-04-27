@@ -62,7 +62,7 @@ echo "$(date +%F-%H:%M:%S) Starting backup process at $(date)" > "$LOG"
 # 3 Take schema backup
 #replace with find all keyspace and take schema backup
 
-	cqlsh --ssl -e "DESC KEYSPACE DBMAME" > "$BACKUP_DIR"/whibse_schema.cql
+	cqlsh --ssl -e "DESC KEYSPACE DBMAME" > "$BACKUP_DIR"/db_schema.cql
 	echo "$(date +%F-%H:%M:%S) Taken cassandra schema backup " >> "$LOG"
 
 
