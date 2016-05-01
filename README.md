@@ -4,7 +4,8 @@ Simple bash script to take cassandra snapshot and sync to Amazon S3 bucket
 
 This script will hepls you to take a cassandra snapshot and sync it to S3 bucket. 
 
-Prerequisites :-
+Requirements
+=======
 
 1. You should have aws command line tool installed in your system
 
@@ -17,7 +18,8 @@ Prerequisites :-
 3. Postfix MTA for sending E-mail Notifications.
 
 
-
+Notes
+=======
 
 To take backups of a multinode cluster, you may set a cronjob in all cluster nodes and run the script at same time.
 
